@@ -1,0 +1,48 @@
+ ul > li {
+    padding: 10px;
+ }
+
+ ul{
+    margin-bottom: 0px;
+    list-style: none;   /* remove the default dot of ul*/
+    background-color:yellow;
+    padding: 2px;
+ }
+
+/*  Dispaly Property
+*/
+li{
+    display: inline-block;
+    font-size: 1.2em;  /*  1em = 16px*/
+    color: rgb(17, 17, 17);
+}
+/* Pseudo code */
+li:hover{
+    color: blue;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.Content{
+    height: 500px;
+    background-color: rgb(238, 159, 56);
+}
+
+.left-content, .right-content{
+    width: calc(50% - 150px);
+    display: inline-block;
+    padding: 50px 50px;
+}
+
+.left-content h2, p{
+    padding: 30px 25px;
+    font-size: 2em;
+    position: relative;
+    top: -150px;
+}
+
+.right-content img{
+    max-width: 400px;
+    position: relative;
+    left: 60px;
+}

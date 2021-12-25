@@ -1,0 +1,28 @@
+/* 
+ margin vs padding
+ */
+
+ ul > li {
+    padding: 10px;
+ }
+
+ ul{
+    margin-bottom: 10px;
+    list-style: none;   /* remove the default dot of ul*/
+    background-color: rgb(39, 194, 0);
+    padding: 2px;
+ }
+
+/*  Dispaly Property
+*/
+li{
+    display: inline-block;
+    font-size: 1em;  /*  1em = 16px*/
+    color: rgb(17, 17, 17);
+}
+/* Pseudo code */
+li:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
