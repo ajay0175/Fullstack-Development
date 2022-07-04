@@ -1,42 +1,18 @@
 body{
-    background-image: url(https://previews.123rf.com/images/tirachard/tirachard1802/tirachard180200064/95656773-creative-flat-lay-photo-of-workspace-desk-top-view-office-desk-with-laptop-blank-empty-notebooks-and.jpg);
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    background-color: #DFF6FF;
 }
 
-navigation
-{
-
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+h1, h3{
+    color: #47B5FF;
 }
 
-nav
-{
-}
-
-ul
-{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 250px;
-}
-
-li
-{
-    padding: 10px 10px;
-    /* background-color: blue; */
-    /* opacity: 0.5; */
-
-}
-
-li a
-{
-    text-decoration: none;
-    color: red;
-}
-
-li a:hover
-{
-    background-color: chartreuse;
-}
+/*
+    linl to color palette : https://colorhunt.co/palette/0067780093ab00afc1ffd124
+*/
