@@ -1,3 +1,30 @@
 body{
-    background-color: rgb(34, 69, 69);
+    margin: 0;
+}
+
+.Intro{
+    height: 200px;
+    width: 200px;
+    border: 10px;
+    padding: 20px;
+    background-color: #54BAB9;
+    border: solid 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+.red{
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    background-color: red;
+}
+
+.blue{
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    background-color: blue;
 }
